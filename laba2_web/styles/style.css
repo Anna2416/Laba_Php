@@ -1,0 +1,34 @@
+.login {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login form {
+    margin: 3rem auto auto;
+}
+
+.not {
+    display: none !important;
+}
+
+.signup {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.signup form {
+    margin: 3rem auto auto;
+}
+
+.backdrop {
+    background-color: rgba(0,0,0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
