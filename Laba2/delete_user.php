@@ -19,4 +19,4 @@ $id = $array["id"];
 
 $sql = "DELETE FROM users WHERE id='$id'";
 $result = $conn->query($sql);
-header("Location:/laba2_web/homepage.php");
+header("Location:/Laba2/homepage.php");

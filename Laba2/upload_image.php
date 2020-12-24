@@ -60,7 +60,7 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
-header("Location:/laba2_web/profile.php?id=". $id);
+header("Location:/Laba2/profile.php?id=". $id);
 
 
 

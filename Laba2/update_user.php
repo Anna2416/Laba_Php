@@ -23,4 +23,4 @@ $_SESSION["email"] = $email;
 
 $sql = "UPDATE users SET first_name='$first_name', last_name='$last_name', email='$email' WHERE id='$id'";
 $result = $conn->query($sql);
-header("Location:/laba2_web/profile.php?id=$id");
+header("Location:/Laba2/profile.php?id=$id");

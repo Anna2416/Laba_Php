@@ -38,4 +38,4 @@ $_SESSION["role"] = $row["role_name"];
 $_SESSION["id"] = $row["id"];
 $_SESSION["user_name"] = $first_name . " " . $last_name;
 
-header("Location:/laba2_web/homepage.php");
+header("Location:/Laba2/homepage.php");

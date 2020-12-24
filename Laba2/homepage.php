@@ -156,7 +156,7 @@ session_start();
 </body>
 <script>
     function checkItem(param) {
-        location.replace("/laba2_web/profile.php?id=" + param);
+        location.replace("/Laba2/profile.php?id=" + param);
     }
 </script>
 </html>

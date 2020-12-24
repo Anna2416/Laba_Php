@@ -33,7 +33,7 @@ if ($result->num_rows > 0) {
     $_SESSION["email"] = $email;
     $_SESSION["id"] = $row["id"];
     $_SESSION["role"] = $row["role_name"];
-    header("Location:/laba2_web/homepage.php");
+    header("Location:/Laba2/homepage.php");
 } else {
-    header("Location:/laba2_web/homepage.php");
+    header("Location:/Laba2/homepage.php");
 }

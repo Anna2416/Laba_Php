@@ -113,12 +113,12 @@ if($_SESSION["clicked_id"] == $_SESSION["id"]) {
         </button>
     </div>
 </form>
-<a href="homepage.php" class="text-primary">go home</a>
+<a href="homepage.php" class="text-primary">Go home</a>
 <?php
 
 if ($_SESSION["role"] == "admin" && $_SESSION["clicked_role"] != "admin") {
     $id = $_SESSION["clicked_id"];
-    echo "<a href='delete_user.php?id=$id' class='text-danger' onclick='checkIfReady()'>delete user</a>";
+    echo "<a href='delete_user.php?id=$id' class='text-danger' onclick='checkIfReady()'>Delete user</a>";
 } ?>
 </body>
 <script>

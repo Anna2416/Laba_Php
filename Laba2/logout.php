@@ -5,4 +5,4 @@ $_SESSION["last_name"] = null;
 $_SESSION["email"] = null;
 $_SESSION["id"] = null;
 $_SESSION["role"] = null;
-header("Location:/laba2_web/homepage.php");
+header("Location:/Laba2/homepage.php");
